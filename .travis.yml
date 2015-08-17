@@ -3,8 +3,8 @@ language: c
 script: ./configure && make
 
 compiler:
-	- clang
-	- gcc
+  - clang
+  - gcc
 
 notifications:
-	email: false
+  email: false
