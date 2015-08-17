@@ -1,0 +1,10 @@
+language: c
+
+script: ./configure && make
+
+compiler:
+	- clang
+	- gcc
+
+notifications:
+	email: false
